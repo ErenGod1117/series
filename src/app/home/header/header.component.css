@@ -1,0 +1,80 @@
+
+mat-toolbar{
+    background-color: black;
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin:0 auto;
+}
+
+.lista{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    padding: 21px
+}
+
+li{
+    display: block;
+    border: 2px solid;
+    padding: 14px 30px 14px 30px;
+    text-align: center;
+    margin-left: 5px;
+}
+.titulo{
+    display: block;
+    padding: 14px 30px 14px 30px;
+    text-align: center;
+    margin-right: 35px;
+}
+li:hover{
+    color: blue;
+    background-color: white;
+    transition: all 1.5s;
+    border-radius: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+}
+
+.facebook:hover{
+    transition: 0.9s;
+    border-radius: 15px;
+    background-color: white;
+}
+.twiter{
+    width: 40px;
+    height: 40px;
+}
+
+.twiter:hover{
+    transition: 0.9s;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.instagram{
+    width: 40px;
+    height:40px; 
+}
+
+.instagram:hover{
+    transition: 0.9s;
+    border-radius: 15px;
+    background-color: white; 
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+

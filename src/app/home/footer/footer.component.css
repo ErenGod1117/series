@@ -1,0 +1,74 @@
+.container-footer-all{
+    display: flex;
+    background-color: #000000;
+    color: white;
+    max-width: 10000px;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.footer-1{
+    width: 600px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.container-footer{
+    width: 480px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    border-top: white solid 4px;
+    border-right: white solid 4px;
+}
+
+.fou{
+    max-width: 100%;
+    background-color: #000000;
+}
+.facebook{
+    width: 70px;
+    height: 70px;
+}
+
+.facebook:hover{
+    transform: translateY(-1.5rem);
+    transition: 0.9s;
+    border-radius: 15px;
+    background-color: white;
+}
+.twiter{
+    width: 70px;
+    height: 70px;
+}
+
+.twiter:hover{
+    transform: translateY(-1.5rem);
+    transition: 0.9s;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.instagram{
+    width: 70px;
+    height: 70px; 
+}
+
+.instagram:hover{
+    transform: translateY(-1.5rem);
+    transition: 0.9s;
+    border-radius: 15px;
+    background-color: white; 
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 25px;
+    margin: 15px 50px 10px 120px;
+}
